@@ -1,0 +1,16 @@
+@tailwind base;
+@taildwind components;
+@tailwind utilities;
+
+/* Importar fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Define o fundo escuro global e a fonte padrão */
+body {
+    @apply bg-dark text-light font-sans;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
