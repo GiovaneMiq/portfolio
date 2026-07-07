@@ -44,7 +44,7 @@ const Navbar = () => {
 
           {/* Menu mobile (simplificado) */}
           <div className="md:hidden">
-            {/* Futuramente podemos adicionar um ícone de hambúrguer */}
+            {/* Futuramente podemos adicionar um ícone */}
             <span className="text-light">Menu</span>
           </div>
         </div>
