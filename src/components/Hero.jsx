@@ -13,7 +13,6 @@ const Hero = () => {
                     />
                 </div>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                    Olá, eu sou{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
                         Giovane Miqueloti
                     </span>
