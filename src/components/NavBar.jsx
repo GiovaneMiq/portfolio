@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo / Nome */}
           <Link href="#hero" className="text-xl font-bold text-primary hover:text-secondary transition-colors">
-            SeuNome
+            Giovane Miqueloti
           </Link>
 
           {/* Links de navegação */}

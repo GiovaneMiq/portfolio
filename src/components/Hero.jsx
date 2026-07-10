@@ -13,13 +13,13 @@ const Hero = () => {
                     />
                 </div>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                    Olá, eu sou{""}
+                    Olá, eu sou{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                        Goku
+                        Giovane Miqueloti
                     </span>
                 </h1>
                 <p className="text-xl md:text-2xl text-light/80 mb-8 max-w-2xl mx-auto">
-                    O melhor de todos amem
+                    Estudante de ADS | Apaixonado por tecnologia e desenvolvimento 
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
