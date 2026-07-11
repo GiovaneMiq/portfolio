@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-50 transition-all duration-300 border-b border-primary/30 ${
         scrolled
           ? "bg-darker/80 backdrop-blur-md shadow-lg"
           : "bg-transparent"
@@ -26,7 +26,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo / Nome */}
           <Link href="#hero" className="text-xl font-bold text-primary hover:text-secondary transition-colors">
-            Giovane Miqueloti
+            <span className="text-light group-hover:text-secondary transition-colors">Giovane</span>{" "}
+            <span className="text-primary group-hover:text-secondary transition-colors">Miqueloti</span>
           </Link>
 
           {/* Links de navegação */}
