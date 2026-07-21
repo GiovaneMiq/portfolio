@@ -14,7 +14,7 @@ const Projects = () => {
             >
               <div className="relative w-full h-48">
                 <Image
-                  src={project.image}
+                  src={project.Image}
                   alt={project.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -35,7 +35,7 @@ const Projects = () => {
                     GitHub
                   </a>
                   <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-light/80 hover:text-primary transition-colors">
-                    Demo
+                    
                   </a>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Hero = () => {
     return (
@@ -13,7 +13,7 @@ const Hero = () => {
                         </span>
                     </h1>
                     <p className="text-xl md:text-2xl text-light/80 mb-8 max-w-2xl mx-auto md:mx-0">
-                        Estudante de ADS | Apaixonado por tecnologia e desenvolvimento
+                        Estudante de ADS | Análise e Desenvolvimento de Sistemas
                     </p>
                     <div className="flex gap-5 justify-center md:justify-start">
                         <a
@@ -37,12 +37,12 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
-                <div className="relative w-32 h-32 md:w-48 md:h-48 flex-shrink-0">
+                <div className="relative w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary shadow-lg flex-shrink-0">
                     <Image
                         src="/perfil.jpg"
                         fill
-                        className="rounded-full object-cover border-4 border-primary shadown-lg"
                         priority
+                        className="object-cover scale-[1.7] object-[48%_25%]"
                     />
                 </div>
             </div>
